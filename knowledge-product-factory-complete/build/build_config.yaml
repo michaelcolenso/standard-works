@@ -1,0 +1,7 @@
+works:
+  dist_dir: dist
+  default_version: v1.0
+  pdf_engine: xelatex
+products:
+  - path: products/EXAMPLE_living_product
+    version: v1.0

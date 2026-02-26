@@ -1,0 +1,51 @@
+name: Standard Works CI
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  quality-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex
+
+      - name: Run status checks (all products)
+        run: |
+          for d in products/*; do
+            if [ -d "$d" ]; then
+              python scripts/status_check.py "$d"
+            fi
+          done
+
+      - name: Run quality gates (all products)
+        run: |
+          for d in products/*; do
+            if [ -d "$d" ]; then
+              python scripts/quality_gate.py "$d"
+            fi
+          done
+
+      - name: Build PDFs (example product)
+        run: |
+          make check PRODUCT=products/EXAMPLE_living_product
+          make all PRODUCT=products/EXAMPLE_living_product
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/

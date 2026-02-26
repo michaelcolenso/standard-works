@@ -1,0 +1,28 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.9in]{geometry}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{Asset Pack}}
+\rhead{\textbf{\today}}
+\cfoot{\thepage}
+\setlist[itemize]{noitemsep, topsep=3pt}
+\begin{document}
+$if(title)$
+\begin{center}
+{\LARGE \textbf{$title$}}\\[6pt]
+{\small Printable toolkit sheets}
+\end{center}
+\vspace{8pt}
+$endif$
+
+$if(toc)$
+\tableofcontents
+\newpage
+$endif$
+
+$body$
+\end{document}

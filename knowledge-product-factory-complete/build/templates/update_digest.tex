@@ -1,0 +1,21 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{Update Digest}}
+\rhead{\textbf{\today}}
+\cfoot{\thepage}
+\setlist[itemize]{noitemsep, topsep=3pt}
+\begin{document}
+$if(title)$
+\begin{center}
+{\LARGE \textbf{$title$}}\\[6pt]
+{\small Living product updates}
+\end{center}
+\vspace{8pt}
+$endif$
+$body$
+\end{document}
