@@ -1,10 +1,10 @@
-Started:
-Stopped:
-Time spent:
+Started: 2026-02-26 18:34
+Stopped: 
+Time spent: 0h 00m
 
 PHASE 1 — MONEY SIGNAL ARCHAEOLOGY
 
-Subreddit:
+Subreddit: r/consulting
 Member count:
 Activity level:
 Posts scanned (N):

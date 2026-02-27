@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -7,21 +8,29 @@ ROTATION = INTAKE / "rotation"
 
 SLOTS = ["SLOT-1", "SLOT-2", "SLOT-3"]
 
+def field_value(text: str, field: str) -> str:
+    match = re.search(rf"^{re.escape(field)}:[ \t]*(.*)$", text, flags=re.MULTILINE)
+    if not match:
+        return ""
+    return match.group(1).strip()
+
 def slot_status(slot):
     path = ROTATION / slot
     candidate = path / "candidate.md"
     decision = path / "decision.md"
 
-    if not candidate.exists():
+    if not path.exists() or not candidate.exists():
         return "EMPTY"
 
-    text = candidate.read_text()
-    if "Idea name:" in text and text.strip().endswith(""):
-        return "IN USE"
+    text = candidate.read_text(encoding="utf-8", errors="ignore")
+    idea_name = field_value(text, "Idea name")
+    if not idea_name:
+        return "EMPTY"
 
     if decision.exists():
-        d = decision.read_text()
-        if "Admit" in d or "Reject" in d or "Park" in d:
+        d = decision.read_text(encoding="utf-8", errors="ignore")
+        decision_value = field_value(d, "Decision").lower()
+        if decision_value in {"admit", "reject", "park"}:
             return "DECIDED"
 
     return "IN PROGRESS"

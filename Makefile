@@ -1,43 +1,38 @@
 PRODUCT ?= products/EXAMPLE_living_product
+SLOT ?= SLOT-1
 
-.PHONY: intake:seed
+.PHONY: intake intake\:seed intake\:run intake\:promote all core quickstart assets updates check
 
-intake:seed:
+intake\:seed:
 	@echo "=== STANDARD WORKS :: PHASE 0 NICHE DISCOVERY ==="
-	@python scripts/run_agent.py knowledge_niche_generator
-
-.PHONY: intake
+	@python3 scripts/run_agent.py knowledge_niche_generator
 
 intake:
 	@echo "=== STANDARD WORKS :: INTAKE MODE ==="
-	@python scripts/intake_status.py
+	@python3 scripts/intake_status.py
 
-.PHONY: intake:run
+intake\:run:
+	@python3 scripts/run_agent.py knowledge_discovery SLOT=$(SLOT)
 
-intake:run:
-	@python scripts/run_agent.py knowledge_discovery SLOT=$(SLOT)
-
-.PHONY: intake:promote
-
-intake:promote:
-	@python scripts/promote_to_slot.py
+intake\:promote:
+	@python3 scripts/promote_to_slot.py
 
 all: core quickstart assets updates
 
 core:
-	python build/scripts/assemble_core.py $(PRODUCT)
+	python3 build/scripts/assemble_core.py $(PRODUCT)
 	bash build/scripts/compile_pdf.sh core $(PRODUCT)
 
 quickstart:
 	bash build/scripts/compile_pdf.sh quickstart $(PRODUCT)
 
 assets:
-	python build/scripts/assemble_assets.py $(PRODUCT)
+	python3 build/scripts/assemble_assets.py $(PRODUCT)
 	bash build/scripts/compile_pdf.sh assets $(PRODUCT)
 
 updates:
 	bash build/scripts/compile_pdf.sh updates $(PRODUCT)
 
 check:
-	python scripts/status_check.py $(PRODUCT)
-	python scripts/quality_gate.py $(PRODUCT)
+	python3 scripts/status_check.py $(PRODUCT)
+	python3 scripts/quality_gate.py $(PRODUCT)
