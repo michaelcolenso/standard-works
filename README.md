@@ -4,7 +4,7 @@
 
 
 This repository is a **complete works template** for building digital knowledge products end-to-end with:
-- long-horizon agentic workflow (externalized state + phase gates)
+- long-horizon agentic workflow (externalized state + phase gates + milestone runner)
 - adversarial quality review
 - minimum asset pack enforcement
 - continuous update engine for living products
@@ -15,6 +15,13 @@ This repository is a **complete works template** for building digital knowledge 
 Create a product:
 ```bash
 bash scripts/new_product.sh my-product
+```
+
+Run long-horizon workflow loop:
+```bash
+make workflow:init PRODUCT=products/my-product
+# ...do milestone work...
+make workflow:advance PRODUCT=products/my-product
 ```
 
 Run checks:
