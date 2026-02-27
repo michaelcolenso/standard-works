@@ -1,6 +1,6 @@
-Started: 
-Stopped: 
-Time spent: 
+Started:
+Stopped:
+Time spent:
 
 PHASE 2 — PAIN FREQUENCY & COST
 
