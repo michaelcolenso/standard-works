@@ -1,5 +1,8 @@
 # Standard Works (Complete)
 
+<img width="2816" height="1536" alt="Gemini_Generated_Image_8r38xv8r38xv8r38 2" src="https://github.com/user-attachments/assets/df83ef44-9a91-4841-911e-664af63dbdb1" />
+
+
 This repository is a **complete works template** for building digital knowledge products end-to-end with:
 - long-horizon agentic workflow (externalized state + phase gates)
 - adversarial quality review
