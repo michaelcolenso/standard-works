@@ -7,3 +7,6 @@ Run phases in order:
 
 Rule:
 - Update STATUS.md after every loop.
+
+
+Long-horizon runbook files live in `workflow/` (`Prompt.md`, `Plan.md`, `Implement.md`, `Documentation.md`).

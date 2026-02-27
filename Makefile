@@ -1,7 +1,7 @@
 PRODUCT ?= products/EXAMPLE_living_product
 SLOT ?= SLOT-1
 
-.PHONY: intake intake\:seed intake\:run intake\:promote all core quickstart assets updates check
+.PHONY: intake intake\:seed intake\:run intake\:promote workflow\:init workflow\:advance all core quickstart assets updates check
 
 intake\:seed:
 	@echo "=== STANDARD WORKS :: PHASE 0 NICHE DISCOVERY ==="
@@ -16,6 +16,12 @@ intake\:run:
 
 intake\:promote:
 	@python3 scripts/promote_to_slot.py
+
+workflow\:init:
+	@python3 scripts/agentic_workflow.py $(PRODUCT)
+
+workflow\:advance:
+	@python3 scripts/agentic_workflow.py $(PRODUCT) --advance
 
 all: core quickstart assets updates
 
