@@ -1,10 +1,10 @@
-Started:
-Stopped:
-Time spent:
+Started: 2026-02-27 03:30
+Stopped: 
+Time spent: 0h 00m
 
 PHASE 1 — MONEY SIGNAL ARCHAEOLOGY
 
-Subreddit:
+Subreddit: r/agency
 Member count:
 Activity level:
 Posts scanned (N):
