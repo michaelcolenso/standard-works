@@ -1,10 +1,10 @@
-Started: 2026-02-26 18:32
-Stopped: 
-Time spent: 0h 00m
+Started:
+Stopped:
+Time spent:
 
 PHASE 1 — MONEY SIGNAL ARCHAEOLOGY
 
-Subreddit: r/freelance
+Subreddit:
 Member count:
 Activity level:
 Posts scanned (N):
