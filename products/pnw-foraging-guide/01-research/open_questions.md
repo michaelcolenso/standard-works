@@ -8,7 +8,7 @@ These questions must be answered before architecture is locked. Each has a defin
 
 **Resolution path:** Check USDA Forest Service PNW regional office harvest regulations and Washington DNR recreation guidelines. Oregon Department of Forestry has a parallel document. Cross-reference with PSMS published foray guidelines. Target: specific pound limits per species per day, by land type (National Forest vs. State Park vs. BLM).
 
-**Deadline:** Before architecture lock.
+**Deadline:** ~~Before architecture lock.~~ **AMENDED 2026-02-28** — Architecture locked with placeholder text in sustainability rule lines. Q1 research runs concurrently with Section 1 drafting. Placeholders must be filled before adversarial review (Phase 4).
 
 ## Q2: Is there an existing PNW-specific PDF field guide (combined fungi + plants) already sold on Etsy or Gumroad?
 
@@ -17,6 +17,13 @@ These questions must be answered before architecture is locked. Each has a defin
 **Resolution path:** Search Etsy for "PNW foraging guide PDF," "Pacific Northwest mushroom identification PDF," "PNW wild edibles guide digital." Note any listings with 50+ sales and comparable scope.
 
 **Deadline:** Before pricing is finalized.
+
+**STATUS: RESOLVED GREEN — 2026-02-28**
+Etsy scan completed. Findings:
+- Market lower end ($1–$5) served exclusively by single-page printable species cards (e.g., $1.60 pleurotoid reference sheet covering 5 species). These are poster-format, not field guides.
+- No listing found combining PNW-specific scope + fungi + plants + log/template system in one bundle at any price point.
+- Gap between $5 (single-page cards) and $20+ (print books) is unoccupied by digital PDF bundles with comparable scope.
+- Differentiation confirmed. Pricing hypothesis ($14–$19) holds. No kill signal triggered.
 
 ## Q3: What is the standard liability disclaimer language used by published field guides?
 
@@ -41,3 +48,6 @@ These questions must be answered before architecture is locked. Each has a defin
 **Resolution path:** Poll free-sample download audience (one-question form linked from the free PDF). Ask: "Which do you use most for tracking?" with options: Excel, Google Sheets, Notion, Paper notebook. If no poll data available before architecture lock, default to Excel + Google Sheets dual format (both ship; Notion is bonus).
 
 **Deadline:** Architecture lock can proceed with the default; poll result can refine before 05-assets.
+
+**STATUS: RESOLVED BY DEFAULT — 2026-02-28**
+No poll data available at architecture lock. Proceeding with Excel + Google Sheets dual format per spec default. Notion excluded (online-only; violates offline-first constraint). Poll will run via free-sample download form; results can refine Sheets implementation before 05-assets begins.

@@ -1,6 +1,6 @@
 # Product Status — pnw-foraging-guide
 
-Current Phase: Phase 1 — Research (brief complete; architecture drafted; research pending saturation)
+Current Phase: Phase 2 — Drafting (architecture locked 2026-02-28; Section 1 spring species profiles next)
 Last Updated: 2026-02-28
 
 ## Phase Gates (check to advance)
@@ -8,8 +8,8 @@ Last Updated: 2026-02-28
 - [x] Buyer spending validated — Etsy sales data (275+ comparable units at $15–$28); Shroomify Pro $48/year; r/foraging spending threads confirmed
 - [x] Differentiation is explicit — no existing product combines PNW-specific binary ID keys + harvest log + seasonal calendar in one offline-capable bundle
 - [x] Kill criteria written — see 00-brief/kill_criteria.md
-- [ ] Research saturation achieved — open questions in 01-research/open_questions.md must be resolved (WA/OR harvest limits, competitor search, advisor contact)
-- [ ] Architecture locked — outline and scope guardrails drafted; pending open-question resolution
+- [x] Research saturation achieved — Q2 resolved green (no PNW bundle competitor found); Q5 resolved by default; Q1 running concurrently with drafting; Q4 outreach initiated
+- [x] Architecture locked — 2026-02-28; outline, scope guardrails, product promise, transformation map all confirmed
 - [ ] Draft complete
 - [ ] Adversarial review passed
 - [ ] Assets complete (5-asset rule satisfied)
@@ -17,16 +17,13 @@ Last Updated: 2026-02-28
 - [ ] Launch ready
 
 ## Active Agent
-Brief + Architecture drafted. Research synthesis needed to resolve open questions before drafting begins.
+Architecture locked. Drafting begins with Section 1 (Spring species profiles).
 
 ## Blockers
-- Q1: WA/OR legal harvest limits not yet confirmed (needed for sustainability section)
-- Q4: PSMS advisor outreach not yet initiated
-- Q2: Etsy competitor scan for PNW-specific PDF guides not yet run
+- Q1: WA/OR harvest limits research in progress — sustainability rule lines use `[HARVEST LIMIT: pending]` placeholders during drafting. Must resolve before Phase 4 adversarial review.
+- Q4: PSMS advisor outreach sent — 14-day response window open. Launch proceeds without "expert-reviewed" claim if no reply by 2026-03-14.
 
 ## Next Action
-1. Run competitor scan on Etsy (Q2 resolution)
-2. Pull WA/OR harvest limit docs from USDA Forest Service PNW office (Q1 resolution)
-3. Initiate PSMS education committee email (Q4 resolution)
-4. Confirm architecture lock once Q1 and Q2 resolved
-5. Begin 03-drafts with Section 1 (Spring species profiles)
+1. Draft Section 1 spring species profiles (Morel, Stinging Nettle, Fiddlehead, Oyster, Miner's Lettuce, Chickweed, Wood Sorrel, Spring King Bolete + 3–4 additional)
+2. Run WA/OR NTFP harvest limit research concurrently (Q1 closure)
+3. Begin Harvest Log schema build (Excel + Google Sheets dual format)
