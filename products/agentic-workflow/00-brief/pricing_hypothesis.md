@@ -1,0 +1,5 @@
+# Pricing Hypothesis
+
+## Tiers
+
+## Rationale
