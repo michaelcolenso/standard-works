@@ -33,6 +33,27 @@ Etsy scan completed. Findings:
 
 **Deadline:** Before 03-drafts begins.
 
+**STATUS: RESOLVED — 2026-03-02**
+Synthesized from Arora (*Mushrooms Demystified*), Trudell/Ammirati (*Mushrooms of the Pacific Northwest*), and Siegel/Schwarz (*Mushrooms of the Redwood Coast*). Standard elements and recommended language:
+
+**Recommended disclaimer block (front matter, page 3):**
+
+> **Safety Disclaimer — Read Before Using This Guide**
+>
+> This guide is a field reference, not a substitute for hands-on training with an experienced forager or mycologist. Wild food identification carries inherent risk. Errors in identification can cause serious illness or death.
+>
+> Before eating any wild specimen: (1) verify identification using the 3-step ID gate in this guide; (2) confirm with a second source or an experienced forager if any doubt remains; (3) cook all fungi and most plants before eating unless the species profile explicitly states "raw use safe."
+>
+> Neither the author nor any distributor of this guide accepts responsibility for adverse effects resulting from the use or misuse of information contained herein. Species appearances vary by age, habitat, and condition. No guide can account for every variation.
+>
+> Some individuals have allergic reactions to species considered broadly edible. When trying any species for the first time, eat a small amount and wait 24 hours before eating more.
+>
+> **If you suspect poisoning:** Call Poison Control immediately — **1-800-222-1222** (US) or **1-844-764-7669** (BC). Save a specimen or photograph if possible.
+>
+> **When in doubt, do not eat it.**
+
+Key structural elements confirmed across all three reference guides: limitation of liability, supplement clause, first-time-consumption rule, Poison Control reference, and the explicit "when in doubt" rule. No novel claims in the above language; no legal review flag triggered.
+
 ## Q4: Can a single PSMS or OMS chapter advisor be secured for a review pass?
 
 **Why it matters:** An expert sign-off enables the "expert-reviewed" claim in marketing copy, which is a top Etsy conversion signal. Without it, the product cannot make that claim.
