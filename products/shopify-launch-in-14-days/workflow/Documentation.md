@@ -24,3 +24,11 @@
 1. Expand each day section into final production depth (checklists, examples, edge cases).
 2. Draft appendix for top launch mistakes and fast fixes.
 3. Prepare adversarial review file set and run validation loop.
+## Current state
+- Active phase: 2 (Architecture)
+- Confidence: Medium-high (problem/sequence validated; drafting execution pending)
+
+## Next actions
+1. Draft Day 1–7 playbook sections in `03-drafts/` with Outcome/Steps/Example/Verification headers.
+2. Build first three assets in `05-assets/` aligned to outline dependencies.
+3. Run quality gate after initial draft tranche and repair all failures.

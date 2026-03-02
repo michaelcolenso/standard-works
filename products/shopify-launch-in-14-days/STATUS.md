@@ -1,6 +1,6 @@
 # Product Status — shopify-launch-in-14-days
 
-Current Phase: Phase 3 — Drafting
+Current Phase: Phase 2 — Architecture
 Last Updated: 2026-02-28
 
 ## Phase Gates (check to advance)
@@ -8,7 +8,7 @@ Last Updated: 2026-02-28
 - [x] Differentiation is explicit (why you win)
 - [x] Kill criteria written (avoid sunk cost)
 - [x] Research saturation achieved
-- [x] Architecture locked
+- [ ] Architecture locked
 - [ ] Draft complete
 - [ ] Adversarial review passed
 - [ ] Assets complete (5-asset rule satisfied)
@@ -19,7 +19,7 @@ Last Updated: 2026-02-28
 Orchestrator
 
 ## Blockers
-- Need full day-level expansion and linked asset references before validation phase.
+- Need architecture sign-off on exact asset list and day-level dependencies before drafting.
 
 ## Next Action
-Complete remaining draft sections and trigger Phase 4 adversarial review package.
+Finalize architecture lock by converting open research questions into explicit inclusion/exclusion decisions.

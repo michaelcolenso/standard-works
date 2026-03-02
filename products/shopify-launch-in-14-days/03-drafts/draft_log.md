@@ -14,3 +14,4 @@
 - Expand each day into full worksheet-linked lessons.
 - Add draft sections for common mistakes + fast fixes appendix.
 - Run adversarial review after full draft pass.
+- Next: begin Day 1–3 core draft modules under `03-drafts/` with required headers for quality gate.
