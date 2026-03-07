@@ -20,7 +20,9 @@ bash scripts/new_product.sh my-product
 Run long-horizon workflow loop:
 ```bash
 make workflow:init PRODUCT=products/my-product
-# ...do milestone work...
+# optional: run fully agentic loop (plan -> delegate -> verify -> log)
+python3 scripts/agentic_workflow.py products/my-product --auto
+# manual advancement mode
 make workflow:advance PRODUCT=products/my-product
 ```
 
