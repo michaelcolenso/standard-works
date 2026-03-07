@@ -2,7 +2,8 @@
 
 Execution runbook:
 1. Read `workflow/Prompt.md` and `workflow/Plan.md`.
-2. Execute only the current milestone scope.
-3. Run validations for the milestone.
-4. If a check fails, fix and rerun before moving ahead.
-5. Update `workflow/Documentation.md` and `STATUS.md` every loop.
+2. Plan the current milestone in `workflow/Documentation.md` under orchestrator notes.
+3. Delegate the milestone to the owner agent.
+4. Verify gate commands and quality checks for the milestone.
+5. If a check fails, log a repair loop and do not advance.
+6. On pass, mark milestone complete and update `STATUS.md` + update log.
